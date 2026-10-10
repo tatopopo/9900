@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "rightarmtotem",
+  "version": "${version}",
+  "name": "Right Arm Totem",
+  "description": "After a Totem of Undying activates, your right arm disappears permanently.",
+  "authors": ["OpenAI"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.rightarmtotem.client.RightArmTotemClient"]
+  },
+  "mixins": ["rightarmtotem.client.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}

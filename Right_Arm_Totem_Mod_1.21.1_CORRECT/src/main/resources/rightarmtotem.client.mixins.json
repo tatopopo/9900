@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.rightarmtotem.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererMixin",
+    "HeldItemRendererMixin",
+    "PlayerEntityModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
